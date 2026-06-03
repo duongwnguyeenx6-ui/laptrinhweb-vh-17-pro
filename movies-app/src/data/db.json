@@ -1,0 +1,1152 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123456",
+      "email": "admin@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user1",
+      "password": "123456",
+      "email": "user1@gmail.com",
+      "role": "customer"
+    },
+    {
+      "id": "3",
+      "username": "user2",
+      "password": "123456",
+      "email": "user2@gmail.com",
+      "role": "customer"
+    },
+    {
+      "username": "duong01",
+      "password": "123456",
+      "email": "trumpc229@gmail.com",
+      "role": "customer",
+      "id": "-7Tgk-CbwR8"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "1",
+      "name": "Phòng 1",
+      "capacity": 100
+    },
+    {
+      "id": "2",
+      "name": "Phòng 2",
+      "capacity": 100
+    },
+    {
+      "id": "3",
+      "name": "Phòng 3",
+      "capacity": 100
+    },
+    {
+      "id": "4",
+      "name": "Phòng 4",
+      "capacity": 100
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "title": "Doraemon: Bản Giao Hưởng Địa Cầu",
+      "duration": 115,
+      "genre": [
+        "Hoạt Hình"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=500&auto=format&fit=crop",
+      "description": "Hành trình phim hoạt hình anime hấp dẫn về thế giới âm nhạc diệu kỳ của Doraemon và những người bạn.",
+      "rating": "4.8/5 ⭐",
+      "viewers": 1250
+    },
+    {
+      "id": "2",
+      "title": "Lật Mặt 8: Sức Mạnh Tình Thân",
+      "duration": 130,
+      "genre": [
+        "Hành Động"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=500&auto=format&fit=crop",
+      "description": "Phim hành động hài kịch gia đình Việt Nam đầy kịch tính, cảm động và mang đậm bản sắc văn hóa miền Tây.",
+      "rating": "4.7/5 ⭐",
+      "viewers": 3420
+    },
+    {
+      "id": "3",
+      "title": "Avatar: Dòng Chảy Của Nước",
+      "duration": 192,
+      "genre": [
+        "Viễn Tưởng"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=500&auto=format&fit=crop",
+      "description": "Câu chuyện lấy bối cảnh hơn một thập kỷ sau các sự kiện của phần phim đầu tiên, đưa khán giả khám phá đại dương Pandora.",
+      "rating": "4.9/5 ⭐",
+      "viewers": 5800
+    },
+    {
+      "id": "4",
+      "title": "Thám Tử Lừng Danh Conan",
+      "duration": 110,
+      "genre": [
+        "Hoạt Hình"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=500&auto=format&fit=crop",
+      "description": "Cuộc đối đầu nghẹt thở giữa Conan và tổ chức Áo Đen bí ẩn xung quanh một hòn đảo công nghệ tối tân.",
+      "rating": "4.6/5 ⭐",
+      "viewers": 1980
+    },
+    {
+      "id": "5",
+      "title": "Kẻ Hủy Diệt: Kỷ Nguyên Mới",
+      "duration": 125,
+      "genre": [
+        "Viễn Tưởng"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=500&auto=format&fit=crop",
+      "description": "Trận chiến giả tưởng đỉnh cao giữa loài người và binh đoàn robot thông minh có ý định thôn tính Trái Đất.",
+      "rating": "4.4/5 ⭐",
+      "viewers": 850
+    },
+    {
+      "id": "6",
+      "title": "Vùng Đất Câm Lặng",
+      "duration": 95,
+      "genre": [
+        "Kinh Dị"
+      ],
+      "image_url": "https://images.unsplash.com/photo-1509248961158-e54f6934749c?q=80&w=500&auto=format&fit=crop",
+      "description": "Phim kinh dị giật gân về thế giới bị xâm chiếm bởi những sinh vật mù siêu nhạy bén với âm thanh.",
+      "rating": "4.5/5 ⭐",
+      "viewers": 1120
+    }
+  ],
+  "showtimes": [
+    {
+      "id": "1",
+      "movie_id": "1",
+      "room_id": "1",
+      "show_date": "2026-06-01",
+      "show_time": "09:00",
+      "ticket_price": 75000
+    },
+    {
+      "id": "2",
+      "movie_id": "1",
+      "room_id": "2",
+      "show_date": "2026-06-01",
+      "show_time": "14:30",
+      "ticket_price": 80000
+    },
+    {
+      "id": "3",
+      "movie_id": "1",
+      "room_id": "1",
+      "show_date": "2026-06-01",
+      "show_time": "19:00",
+      "ticket_price": 90000
+    },
+    {
+      "id": "4",
+      "movie_id": "1",
+      "room_id": "4",
+      "show_date": "2026-06-01",
+      "show_time": "21:30",
+      "ticket_price": 95000
+    },
+    {
+      "id": "5",
+      "movie_id": "2",
+      "room_id": "1",
+      "show_date": "2026-06-01",
+      "show_time": "10:15",
+      "ticket_price": 80000
+    },
+    {
+      "id": "6",
+      "movie_id": "2",
+      "room_id": "2",
+      "show_date": "2026-06-01",
+      "show_time": "15:45",
+      "ticket_price": 85000
+    },
+    {
+      "id": "7",
+      "movie_id": "2",
+      "room_id": "4",
+      "show_date": "2026-06-01",
+      "show_time": "20:15",
+      "ticket_price": 95000
+    },
+    {
+      "id": "8",
+      "movie_id": "2",
+      "room_id": "3",
+      "show_date": "2026-06-01",
+      "show_time": "22:45",
+      "ticket_price": 95000
+    },
+    {
+      "id": "9",
+      "movie_id": "3",
+      "room_id": "3",
+      "show_date": "2026-06-02",
+      "show_time": "09:00",
+      "ticket_price": 110000
+    },
+    {
+      "id": "10",
+      "movie_id": "3",
+      "room_id": "2",
+      "show_date": "2026-06-02",
+      "show_time": "13:00",
+      "ticket_price": 115000
+    },
+    {
+      "id": "11",
+      "movie_id": "3",
+      "room_id": "3",
+      "show_date": "2026-06-02",
+      "show_time": "16:45",
+      "ticket_price": 120000
+    },
+    {
+      "id": "12",
+      "movie_id": "3",
+      "room_id": "4",
+      "show_date": "2026-06-02",
+      "show_time": "20:30",
+      "ticket_price": 130000
+    },
+    {
+      "id": "13",
+      "movie_id": "4",
+      "room_id": "1",
+      "show_date": "2026-06-02",
+      "show_time": "08:30",
+      "ticket_price": 75000
+    },
+    {
+      "id": "14",
+      "movie_id": "4",
+      "room_id": "2",
+      "show_date": "2026-06-02",
+      "show_time": "11:15",
+      "ticket_price": 80000
+    },
+    {
+      "id": "15",
+      "movie_id": "4",
+      "room_id": "4",
+      "show_date": "2026-06-02",
+      "show_time": "15:00",
+      "ticket_price": 90000
+    },
+    {
+      "id": "16",
+      "movie_id": "4",
+      "room_id": "3",
+      "show_date": "2026-06-02",
+      "show_time": "18:30",
+      "ticket_price": 85000
+    },
+    {
+      "id": "17",
+      "movie_id": "5",
+      "room_id": "3",
+      "show_date": "2026-06-03",
+      "show_time": "11:00",
+      "ticket_price": 85000
+    },
+    {
+      "id": "18",
+      "movie_id": "5",
+      "room_id": "4",
+      "show_date": "2026-06-03",
+      "show_time": "14:15",
+      "ticket_price": 90000
+    },
+    {
+      "id": "19",
+      "movie_id": "5",
+      "room_id": "2",
+      "show_date": "2026-06-03",
+      "show_time": "17:45",
+      "ticket_price": 90000
+    },
+    {
+      "id": "20",
+      "movie_id": "5",
+      "room_id": "3",
+      "show_date": "2026-06-03",
+      "show_time": "21:00",
+      "ticket_price": 95000
+    },
+    {
+      "id": "21",
+      "movie_id": "6",
+      "room_id": "2",
+      "show_date": "2026-06-03",
+      "show_time": "10:30",
+      "ticket_price": 80000
+    },
+    {
+      "id": "22",
+      "movie_id": "6",
+      "room_id": "4",
+      "show_date": "2026-06-03",
+      "show_time": "15:15",
+      "ticket_price": 90000
+    },
+    {
+      "id": "23",
+      "movie_id": "6",
+      "room_id": "3",
+      "show_date": "2026-06-03",
+      "show_time": "19:30",
+      "ticket_price": 90000
+    },
+    {
+      "id": "24",
+      "movie_id": "6",
+      "room_id": "2",
+      "show_date": "2026-06-03",
+      "show_time": "22:30",
+      "ticket_price": 90000
+    }
+  ],
+  "seats": [
+    {
+      "id": "1",
+      "room_id": "1",
+      "seat_number": "A1"
+    },
+    {
+      "id": "2",
+      "room_id": "1",
+      "seat_number": "A2"
+    },
+    {
+      "id": "3",
+      "room_id": "1",
+      "seat_number": "A3"
+    },
+    {
+      "id": "4",
+      "room_id": "1",
+      "seat_number": "A4"
+    },
+    {
+      "id": "5",
+      "room_id": "1",
+      "seat_number": "A5"
+    },
+    {
+      "id": "6",
+      "room_id": "1",
+      "seat_number": "A6"
+    },
+    {
+      "id": "7",
+      "room_id": "1",
+      "seat_number": "A7"
+    },
+    {
+      "id": "8",
+      "room_id": "1",
+      "seat_number": "A8"
+    },
+    {
+      "id": "9",
+      "room_id": "1",
+      "seat_number": "A9"
+    },
+    {
+      "id": "10",
+      "room_id": "1",
+      "seat_number": "A10"
+    },
+    {
+      "id": "11",
+      "room_id": "1",
+      "seat_number": "B1"
+    },
+    {
+      "id": "12",
+      "room_id": "1",
+      "seat_number": "B2"
+    },
+    {
+      "id": "13",
+      "room_id": "1",
+      "seat_number": "B3"
+    },
+    {
+      "id": "14",
+      "room_id": "1",
+      "seat_number": "B4"
+    },
+    {
+      "id": "15",
+      "room_id": "1",
+      "seat_number": "B5"
+    },
+    {
+      "id": "16",
+      "room_id": "1",
+      "seat_number": "B6"
+    },
+    {
+      "id": "17",
+      "room_id": "1",
+      "seat_number": "B7"
+    },
+    {
+      "id": "18",
+      "room_id": "1",
+      "seat_number": "B8"
+    },
+    {
+      "id": "19",
+      "room_id": "1",
+      "seat_number": "B9"
+    },
+    {
+      "id": "20",
+      "room_id": "1",
+      "seat_number": "B10"
+    },
+    {
+      "id": "21",
+      "room_id": "1",
+      "seat_number": "C1"
+    },
+    {
+      "id": "22",
+      "room_id": "1",
+      "seat_number": "C2"
+    },
+    {
+      "id": "23",
+      "room_id": "1",
+      "seat_number": "C3"
+    },
+    {
+      "id": "24",
+      "room_id": "1",
+      "seat_number": "C4"
+    },
+    {
+      "id": "25",
+      "room_id": "1",
+      "seat_number": "C5"
+    },
+    {
+      "id": "26",
+      "room_id": "1",
+      "seat_number": "C6"
+    },
+    {
+      "id": "27",
+      "room_id": "1",
+      "seat_number": "C7"
+    },
+    {
+      "id": "28",
+      "room_id": "1",
+      "seat_number": "C8"
+    },
+    {
+      "id": "29",
+      "room_id": "1",
+      "seat_number": "C9"
+    },
+    {
+      "id": "30",
+      "room_id": "1",
+      "seat_number": "C10"
+    },
+    {
+      "id": "31",
+      "room_id": "1",
+      "seat_number": "D1"
+    },
+    {
+      "id": "32",
+      "room_id": "1",
+      "seat_number": "D2"
+    },
+    {
+      "id": "33",
+      "room_id": "1",
+      "seat_number": "D3"
+    },
+    {
+      "id": "34",
+      "room_id": "1",
+      "seat_number": "D4"
+    },
+    {
+      "id": "35",
+      "room_id": "1",
+      "seat_number": "D5"
+    },
+    {
+      "id": "36",
+      "room_id": "1",
+      "seat_number": "D6"
+    },
+    {
+      "id": "37",
+      "room_id": "1",
+      "seat_number": "D7"
+    },
+    {
+      "id": "38",
+      "room_id": "1",
+      "seat_number": "D8"
+    },
+    {
+      "id": "39",
+      "room_id": "1",
+      "seat_number": "D9"
+    },
+    {
+      "id": "40",
+      "room_id": "1",
+      "seat_number": "D10"
+    },
+    {
+      "id": "41",
+      "room_id": "2",
+      "seat_number": "A1"
+    },
+    {
+      "id": "42",
+      "room_id": "2",
+      "seat_number": "A2"
+    },
+    {
+      "id": "43",
+      "room_id": "2",
+      "seat_number": "A3"
+    },
+    {
+      "id": "44",
+      "room_id": "2",
+      "seat_number": "A4"
+    },
+    {
+      "id": "45",
+      "room_id": "2",
+      "seat_number": "A5"
+    },
+    {
+      "id": "46",
+      "room_id": "2",
+      "seat_number": "A6"
+    },
+    {
+      "id": "47",
+      "room_id": "2",
+      "seat_number": "A7"
+    },
+    {
+      "id": "48",
+      "room_id": "2",
+      "seat_number": "A8"
+    },
+    {
+      "id": "49",
+      "room_id": "2",
+      "seat_number": "A9"
+    },
+    {
+      "id": "50",
+      "room_id": "2",
+      "seat_number": "A10"
+    },
+    {
+      "id": "51",
+      "room_id": "2",
+      "seat_number": "B1"
+    },
+    {
+      "id": "52",
+      "room_id": "2",
+      "seat_number": "B2"
+    },
+    {
+      "id": "53",
+      "room_id": "2",
+      "seat_number": "B3"
+    },
+    {
+      "id": "54",
+      "room_id": "2",
+      "seat_number": "B4"
+    },
+    {
+      "id": "55",
+      "room_id": "2",
+      "seat_number": "B5"
+    },
+    {
+      "id": "56",
+      "room_id": "2",
+      "seat_number": "B6"
+    },
+    {
+      "id": "57",
+      "room_id": "2",
+      "seat_number": "B7"
+    },
+    {
+      "id": "58",
+      "room_id": "2",
+      "seat_number": "B8"
+    },
+    {
+      "id": "59",
+      "room_id": "2",
+      "seat_number": "B9"
+    },
+    {
+      "id": "60",
+      "room_id": "2",
+      "seat_number": "B10"
+    },
+    {
+      "id": "61",
+      "room_id": "2",
+      "seat_number": "C1"
+    },
+    {
+      "id": "62",
+      "room_id": "2",
+      "seat_number": "C2"
+    },
+    {
+      "id": "63",
+      "room_id": "2",
+      "seat_number": "C3"
+    },
+    {
+      "id": "64",
+      "room_id": "2",
+      "seat_number": "C4"
+    },
+    {
+      "id": "65",
+      "room_id": "2",
+      "seat_number": "C5"
+    },
+    {
+      "id": "66",
+      "room_id": "2",
+      "seat_number": "C6"
+    },
+    {
+      "id": "67",
+      "room_id": "2",
+      "seat_number": "C7"
+    },
+    {
+      "id": "68",
+      "room_id": "2",
+      "seat_number": "C8"
+    },
+    {
+      "id": "69",
+      "room_id": "2",
+      "seat_number": "C9"
+    },
+    {
+      "id": "70",
+      "room_id": "2",
+      "seat_number": "C10"
+    },
+    {
+      "id": "71",
+      "room_id": "2",
+      "seat_number": "D1"
+    },
+    {
+      "id": "72",
+      "room_id": "2",
+      "seat_number": "D2"
+    },
+    {
+      "id": "73",
+      "room_id": "2",
+      "seat_number": "D3"
+    },
+    {
+      "id": "74",
+      "room_id": "2",
+      "seat_number": "D4"
+    },
+    {
+      "id": "75",
+      "room_id": "2",
+      "seat_number": "D5"
+    },
+    {
+      "id": "76",
+      "room_id": "2",
+      "seat_number": "D6"
+    },
+    {
+      "id": "77",
+      "room_id": "2",
+      "seat_number": "D7"
+    },
+    {
+      "id": "78",
+      "room_id": "2",
+      "seat_number": "D8"
+    },
+    {
+      "id": "79",
+      "room_id": "2",
+      "seat_number": "D9"
+    },
+    {
+      "id": "80",
+      "room_id": "2",
+      "seat_number": "D10"
+    },
+    {
+      "id": "81",
+      "room_id": "3",
+      "seat_number": "A1"
+    },
+    {
+      "id": "82",
+      "room_id": "3",
+      "seat_number": "A2"
+    },
+    {
+      "id": "83",
+      "room_id": "3",
+      "seat_number": "A3"
+    },
+    {
+      "id": "84",
+      "room_id": "3",
+      "seat_number": "A4"
+    },
+    {
+      "id": "85",
+      "room_id": "3",
+      "seat_number": "A5"
+    },
+    {
+      "id": "86",
+      "room_id": "3",
+      "seat_number": "A6"
+    },
+    {
+      "id": "87",
+      "room_id": "3",
+      "seat_number": "A7"
+    },
+    {
+      "id": "88",
+      "room_id": "3",
+      "seat_number": "A8"
+    },
+    {
+      "id": "89",
+      "room_id": "3",
+      "seat_number": "A9"
+    },
+    {
+      "id": "90",
+      "room_id": "3",
+      "seat_number": "A10"
+    },
+    {
+      "id": "91",
+      "room_id": "3",
+      "seat_number": "B1"
+    },
+    {
+      "id": "92",
+      "room_id": "3",
+      "seat_number": "B2"
+    },
+    {
+      "id": "93",
+      "room_id": "3",
+      "seat_number": "B3"
+    },
+    {
+      "id": "94",
+      "room_id": "3",
+      "seat_number": "B4"
+    },
+    {
+      "id": "95",
+      "room_id": "3",
+      "seat_number": "B5"
+    },
+    {
+      "id": "96",
+      "room_id": "3",
+      "seat_number": "B6"
+    },
+    {
+      "id": "97",
+      "room_id": "3",
+      "seat_number": "B7"
+    },
+    {
+      "id": "98",
+      "room_id": "3",
+      "seat_number": "B8"
+    },
+    {
+      "id": "99",
+      "room_id": "3",
+      "seat_number": "B9"
+    },
+    {
+      "id": "100",
+      "room_id": "3",
+      "seat_number": "B10"
+    },
+    {
+      "id": "101",
+      "room_id": "3",
+      "seat_number": "C1"
+    },
+    {
+      "id": "102",
+      "room_id": "3",
+      "seat_number": "C2"
+    },
+    {
+      "id": "103",
+      "room_id": "3",
+      "seat_number": "C3"
+    },
+    {
+      "id": "104",
+      "room_id": "3",
+      "seat_number": "C4"
+    },
+    {
+      "id": "105",
+      "room_id": "3",
+      "seat_number": "C5"
+    },
+    {
+      "id": "106",
+      "room_id": "3",
+      "seat_number": "C6"
+    },
+    {
+      "id": "107",
+      "room_id": "3",
+      "seat_number": "C7"
+    },
+    {
+      "id": "108",
+      "room_id": "3",
+      "seat_number": "C8"
+    },
+    {
+      "id": "109",
+      "room_id": "3",
+      "seat_number": "C9"
+    },
+    {
+      "id": "110",
+      "room_id": "3",
+      "seat_number": "C10"
+    },
+    {
+      "id": "111",
+      "room_id": "3",
+      "seat_number": "D1"
+    },
+    {
+      "id": "112",
+      "room_id": "3",
+      "seat_number": "D2"
+    },
+    {
+      "id": "113",
+      "room_id": "3",
+      "seat_number": "D3"
+    },
+    {
+      "id": "114",
+      "room_id": "3",
+      "seat_number": "D4"
+    },
+    {
+      "id": "115",
+      "room_id": "3",
+      "seat_number": "D5"
+    },
+    {
+      "id": "116",
+      "room_id": "3",
+      "seat_number": "D6"
+    },
+    {
+      "id": "117",
+      "room_id": "3",
+      "seat_number": "D7"
+    },
+    {
+      "id": "118",
+      "room_id": "3",
+      "seat_number": "D8"
+    },
+    {
+      "id": "119",
+      "room_id": "3",
+      "seat_number": "D9"
+    },
+    {
+      "id": "120",
+      "room_id": "3",
+      "seat_number": "D10"
+    },
+    {
+      "id": "121",
+      "room_id": "4",
+      "seat_number": "A1"
+    },
+    {
+      "id": "122",
+      "room_id": "4",
+      "seat_number": "A2"
+    },
+    {
+      "id": "123",
+      "room_id": "4",
+      "seat_number": "A3"
+    },
+    {
+      "id": "124",
+      "room_id": "4",
+      "seat_number": "A4"
+    },
+    {
+      "id": "125",
+      "room_id": "4",
+      "seat_number": "A5"
+    },
+    {
+      "id": "126",
+      "room_id": "4",
+      "seat_number": "A6"
+    },
+    {
+      "id": "127",
+      "room_id": "4",
+      "seat_number": "A7"
+    },
+    {
+      "id": "128",
+      "room_id": "4",
+      "seat_number": "A8"
+    },
+    {
+      "id": "129",
+      "room_id": "4",
+      "seat_number": "A9"
+    },
+    {
+      "id": "130",
+      "room_id": "4",
+      "seat_number": "A10"
+    },
+    {
+      "id": "131",
+      "room_id": "4",
+      "seat_number": "B1"
+    },
+    {
+      "id": "132",
+      "room_id": "4",
+      "seat_number": "B2"
+    },
+    {
+      "id": "133",
+      "room_id": "4",
+      "seat_number": "B3"
+    },
+    {
+      "id": "134",
+      "room_id": "4",
+      "seat_number": "B4"
+    },
+    {
+      "id": "135",
+      "room_id": "4",
+      "seat_number": "B5"
+    },
+    {
+      "id": "136",
+      "room_id": "4",
+      "seat_number": "B6"
+    },
+    {
+      "id": "137",
+      "room_id": "4",
+      "seat_number": "B7"
+    },
+    {
+      "id": "138",
+      "room_id": "4",
+      "seat_number": "B8"
+    },
+    {
+      "id": "139",
+      "room_id": "4",
+      "seat_number": "B9"
+    },
+    {
+      "id": "140",
+      "room_id": "4",
+      "seat_number": "B10"
+    },
+    {
+      "id": "141",
+      "room_id": "4",
+      "seat_number": "C1"
+    },
+    {
+      "id": "142",
+      "room_id": "4",
+      "seat_number": "C2"
+    },
+    {
+      "id": "143",
+      "room_id": "4",
+      "seat_number": "C3"
+    },
+    {
+      "id": "144",
+      "room_id": "4",
+      "seat_number": "C4"
+    },
+    {
+      "id": "145",
+      "room_id": "4",
+      "seat_number": "C5"
+    },
+    {
+      "id": "146",
+      "room_id": "4",
+      "seat_number": "C6"
+    },
+    {
+      "id": "147",
+      "room_id": "4",
+      "seat_number": "C7"
+    },
+    {
+      "id": "148",
+      "room_id": "4",
+      "seat_number": "C8"
+    },
+    {
+      "id": "149",
+      "room_id": "4",
+      "seat_number": "C9"
+    },
+    {
+      "id": "150",
+      "room_id": "4",
+      "seat_number": "C10"
+    },
+    {
+      "id": "151",
+      "room_id": "4",
+      "seat_number": "D1"
+    },
+    {
+      "id": "152",
+      "room_id": "4",
+      "seat_number": "D2"
+    },
+    {
+      "id": "153",
+      "room_id": "4",
+      "seat_number": "D3"
+    },
+    {
+      "id": "154",
+      "room_id": "4",
+      "seat_number": "D4"
+    },
+    {
+      "id": "155",
+      "room_id": "4",
+      "seat_number": "D5"
+    },
+    {
+      "id": "156",
+      "room_id": "4",
+      "seat_number": "D6"
+    },
+    {
+      "id": "157",
+      "room_id": "4",
+      "seat_number": "D7"
+    },
+    {
+      "id": "158",
+      "room_id": "4",
+      "seat_number": "D8"
+    },
+    {
+      "id": "159",
+      "room_id": "4",
+      "seat_number": "D9"
+    },
+    {
+      "id": "160",
+      "room_id": "4",
+      "seat_number": "D10"
+    }
+  ],
+  "bookings": [
+    {
+      "user_id": null,
+      "showtime_id": "2",
+      "seat_ids": [
+        "45",
+        "46"
+      ],
+      "total_price": 180000,
+      "status": "completed",
+      "created_at": "2026-05-31T16:33:12.619Z",
+      "id": "ReUHU14d0rU"
+    },
+    {
+      "user_id": "2",
+      "showtime_id": "8",
+      "seat_ids": [
+        "116",
+        "106",
+        "105"
+      ],
+      "total_price": 285000,
+      "status": "completed",
+      "created_at": "2026-05-31T16:55:02.722Z",
+      "id": "icU-LdgpDKA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

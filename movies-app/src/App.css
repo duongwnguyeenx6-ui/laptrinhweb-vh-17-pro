@@ -1,0 +1,68 @@
+.custom-navbar {
+  background: #033a8c;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.app-shell {
+  min-height: 100vh;
+  padding-bottom: 40px;
+  background: linear-gradient(180deg, #052a72, #0b4eb9 60%, #d9e7ff 100%);
+}
+
+.custom-card {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(0, 72, 214, 0.18);
+  box-shadow: 0 28px 60px rgba(0, 54, 120, 0.14);
+}
+
+.custom-button {
+  background-color: #0047c3;
+  border-color: #0047c3;
+  color: white;
+}
+
+.custom-button:hover,
+.custom-button:focus {
+  background-color: #0033a1;
+  border-color: #0033a1;
+  color: white;
+}
+
+.form-control,
+.form-select {
+  border-color: rgba(0, 72, 214, 0.28);
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #0052cc;
+  box-shadow: 0 0 0 0.2rem rgba(0, 82, 204, 0.18);
+}
+
+.btn-outline-secondary {
+  color: #0052cc;
+  border-color: rgba(0, 72, 214, 0.35);
+  background-color: #eff5ff;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  color: white;
+  background-color: #0052cc;
+  border-color: #0052cc;
+}
+
+body {
+  margin: 0;
+  background-color: #072b66;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
