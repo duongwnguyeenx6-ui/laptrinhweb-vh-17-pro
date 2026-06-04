@@ -21,6 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-movies/src/features/
-movies/node_modules/
-movies/build/
+movies-app/src/features/
+movies-app/node_modules/
+movies-app/build/
