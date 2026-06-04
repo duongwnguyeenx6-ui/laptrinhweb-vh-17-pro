@@ -1121,32 +1121,6 @@
       "seat_number": "D10"
     }
   ],
-  "bookings": [
-    {
-      "user_id": null,
-      "showtime_id": "2",
-      "seat_ids": [
-        "45",
-        "46"
-      ],
-      "total_price": 180000,
-      "status": "completed",
-      "created_at": "2026-05-31T16:33:12.619Z",
-      "id": "ReUHU14d0rU"
-    },
-    {
-      "user_id": "2",
-      "showtime_id": "8",
-      "seat_ids": [
-        "116",
-        "106",
-        "105"
-      ],
-      "total_price": 285000,
-      "status": "completed",
-      "created_at": "2026-05-31T16:55:02.722Z",
-      "id": "icU-LdgpDKA"
-    }
-  ],
+  "bookings": [],
   "$schema": "./node_modules/json-server/schema.json"
 }

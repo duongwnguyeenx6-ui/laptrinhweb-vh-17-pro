@@ -1,4 +1,4 @@
-import rawDb from './db.json';
+import rawDb from './database.json';
 
 const toNumberIfPossible = (v) => {
   if (v === null || v === undefined) return v;
@@ -10,7 +10,7 @@ const normalizeMovie = (m) => ({
   id: toNumberIfPossible(m.id),
   title: m.title,
   duration: m.duration,
-  genre: Array.isArray(m.genre) ? (m.genre[0] || '') : (m.genre || ''),
+  genre: Array.isArray(m.genre) ? m.genre : (m.genre ? [m.genre] : []),
   image_url: m.image_url,
   description: m.description,
   rating: m.rating,
